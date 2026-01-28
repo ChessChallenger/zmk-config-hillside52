@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3  # Keeps you on the stable 2025/2026 release
+      revision: v0.3.0
       import: app/west.yml
   self:
     path: config
