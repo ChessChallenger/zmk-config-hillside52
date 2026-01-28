@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: beekeeb
-      url-base: https://github.com/beekeeb
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: v0.3  # Keeps you on the stable 2025/2026 release
       import: app/west.yml
-    - name: zmk-config-hillside
-      remote: beekeeb
-      revision: main
   self:
     path: config
